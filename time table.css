@@ -1,0 +1,93 @@
+
+body{
+      background-color: rgb(221, 233, 244);
+
+}
+
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    margin-bottom: 90px;
+    margin-top: 50px;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  th {
+    background-color: #2b6a83;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+  }
+  td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+  }
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  tr:hover {
+    background-color: #e0f7fa;
+    cursor: pointer;
+  }
+  h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 60px;
+    color: white;
+    background-color: #2b6a83;
+;
+  }
+
+
+
+
+
+
+
+
+
+  @media (max-width: 1024px) {
+    table {
+        width: 90%;
+    }
+    th, td {
+        font-size: 18px;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 24px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    table {
+        width: 95%;
+    }
+    th, td {
+        font-size: 16px;
+        padding: 8px;
+    }
+    h1 {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    table {
+        width: 100%;
+    }
+    th, td {
+        font-size: 14px;
+        padding: 6px;
+    }
+    h1 {
+        font-size: 18px;
+        padding: 8px;
+    }
+}

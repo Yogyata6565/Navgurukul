@@ -1,0 +1,159 @@
+/* table2.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(221, 233, 244);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin: 20px 0;
+    margin-top: 40px;
+     background-color: #2b6a83;
+}
+
+table {
+    margin: 20px auto;
+    margin-top: 60px;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 20px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+     background-color: #2b6a83;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+td {
+    color: #555;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e0f7e9;
+    cursor: pointer;
+}
+
+td:last-child {
+    font-weight: bold;
+}
+
+td:first-child {
+    font-style: italic;
+}
+
+caption {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+    .main p {
+        margin: 0 100px;
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    th, td {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav li {
+        margin: 10px 0;
+    }
+
+    .cards {
+        padding: 0;
+    }
+
+    .card1, .card2, .card3 {
+        margin: 10px;
+        width: 90%;
+    }
+
+    .main p {
+        margin: 0 50px;
+        font-size: 16px;
+    }
+
+    table {
+        width: 95%;
+    }
+
+    th, td {
+        padding: 8px 12px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        height: 40px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .main p {
+        margin: 0 20px;
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    th, td {
+        padding: 6px 10px;
+        font-size: 10px;
+    }
+}
